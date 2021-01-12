@@ -1,0 +1,4 @@
+*.ipynb
+.*
+!.gitignore
+node_modules

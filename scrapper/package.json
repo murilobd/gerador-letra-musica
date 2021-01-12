@@ -1,0 +1,25 @@
+{
+	"name": "gerador-letra-musica",
+	"version": "1.0.0",
+	"description": "Lyrics generator - Gerador de letra de música",
+	"main": "scrapper-letras.js",
+	"type": "module",
+	"scripts": {
+		"scrap": "node scrapper-letras.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"lyrics",
+		"generator",
+		"música",
+		"letra",
+		"de",
+		"música"
+	],
+	"author": "Murilo Boareto Delefrate",
+	"license": "ISC",
+	"dependencies": {
+		"cli-progress": "^3.8.2",
+		"jsdom": "^16.4.0"
+	}
+}
